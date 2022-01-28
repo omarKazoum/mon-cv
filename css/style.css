@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(234, 234, 234, 0.55);
+}
+
+.left-column__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+}
+
+.section-title {
+  margin: 15px;
+  color: #006774;
+  font-weight: 400 !important;
+  font-family: "Arial Black";
+  display: inline-block !important;
+  margin-top: 1rem;
+  text-align: center;
+  clear: both;
+}
+.section-title--black {
+  color: black;
+  font-weight: bold;
+}
+
+.text-light {
+  color: #454545 !important;
+}
+
+.card {
+  padding: 0.5rem;
+  box-shadow: 1px 1px #eeee;
+  border-radius: 1rem;
+  border: none;
+  background-color: #e9e9e9;
+}
+
+.vertical-image {
+  background-color: #0095a7;
+  height: 2rem;
+  width: 100%;
+  display: inline-block;
+}
+
+.section-content {
+  padding: 15px;
+}
+
+.lang-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.langs-list .lang {
+  padding: 5px;
+}
+.langs-list .lang__name {
+  font-weight: bold;
+}
+.langs-list .lang__level {
+  color: #656565;
+  padding-left: 10px;
+}
+
+.hobies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hobies-list .hoby {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.hobies-list .hoby__img {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.hobies-list .hoby__name {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.hobies-list .hoby__example {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

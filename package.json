@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "my cv project",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarKazoum/my-resume.git"
+  },
+  "keywords": [
+    "omar",
+    "kazoum"
+  ],
+  "author": "omar kazoum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omarKazoum/my-resume/issues"
+  },
+  "homepage": "https://github.com/omarKazoum/my-resume#readme",
+  "dependencies": {
+    "bootstrap": "5.1.3"
+  }
+}
